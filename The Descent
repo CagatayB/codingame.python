@@ -1,0 +1,12 @@
+import sys
+import math
+
+while True:
+    int1 = 0
+    int2 = 0
+    for i in range(8):
+        mountain_h = int(input())
+        if mountain_h > int1:
+         int1 = mountain_h
+         int2 = i     
+    print(int2)
